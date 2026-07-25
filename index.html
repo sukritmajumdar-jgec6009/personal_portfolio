@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sukrit Majumdar | Protocol</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Space+Grotesk:wght@300;500&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Social Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="loading"> 
+
+    <!-- PRELOADER -->
+    <div id="preloader">
+        <div class="preloader-content">
+            <div class="bat-logo-container">
+                <div class="rectangle">
+                  <div class="oval_short oval1"></div>
+                  <div class="oval_long oval2"></div>
+                  <div class="oval_long oval3"></div>
+                  <div class="oval_short oval4"></div>
+                  <div class="oval5"></div>
+                  <div class="head"></div>
+                  <div class="triangle1"></div>
+                  <div class="triangle2"></div>
+                  <div class="cover cover1"></div>
+                  <div class="cover cover2"></div>
+                </div>
+            </div>
+            <div class="loader-text">AUTHENTICATING...</div>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main-content">
+        <div class="cursor"></div>
+
+        <!-- HUD Logo (Desktop Only) -->
+        <div class="fixed-logo">sm_76</div>
+
+        <!-- NAVIGATION -->
+        <nav class="navbar capsule-nav">
+            <!-- Mobile Only Logo -->
+            <div class="mobile-logo">sm_76</div>
+            
+            <!-- Hamburger Icon -->
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home" class="magnetic-link">Home</a></li>
+                <li><a href="#about" class="magnetic-link">About</a></li>
+                <li><a href="#experience" class="magnetic-link">Experience</a></li>
+                <li><a href="#projects" class="magnetic-link">Projects</a></li>
+                <li><a href="#contact" class="magnetic-link">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- HERO SECTION WITH VIDEO BACKGROUND -->
+        <header id="home" class="hero">
+            <!-- Background Video Stream Injection -->
+            <video autoplay loop muted playsinline class="hero-bg-video">
+                <source src="batman-vdo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            
+            <!-- Shadow Overlay layer to ensure typography contrast -->
+            <div class="video-overlay"></div>
+
+            <div class="hero-content">
+                <h2 class="subtitle">Wayne Tech Protocol Initiated.</h2>
+                <h1 class="title">SUKRIT MAJUMDAR<br><span class="highlight">SOFTWARE DEVELOPER</span></h1>
+                
+                <p class="description">
+                    <span id="typewriter-text"></span><span class="blinking-cursor"></span>
+                </p>
+                
+                <a href="#about" class="btn primary-btn">About me</a>
+            </div>
+        </header>
+
+        <!-- ABOUT ME SECTION -->
+        <section id="about" class="section">
+            <h2 class="section-title">The Architect</h2>
+            <div class="about-grid">
+                
+                <!-- BATCOMPUTER TERMINAL -->
+                <div class="batcomputer-terminal">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons">
+                            <span class="close-btn"></span>
+                            <span class="min-btn"></span>
+                            <span class="max-btn"></span>
+                        </div>
+                        <div class="terminal-title">WAYNE_OS // CLASSIFIED_PROFILE.EXE</div>
+                    </div>
+                    
+                    <div class="terminal-body" id="batcomputer-screen">
+                        <div class="scanlines"></div>
+                        
+                        <div class="terminal-content-wrapper" id="batcomputer-text">
+                            <!-- JS Will Inject Content Here -->
+                        </div>
+                        
+                        <div class="terminal-content-wrapper">
+                            <span class="blinking-cursor" style="height:0.9rem; margin-top:10px;"></span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <span class="stat-number">1500+</span>
+                        <span class="stat-label">Algorithmic Problems Conquered</span>
+                        
+                        <div class="profiles-wrapper">
+                            <span class="profile-heading">Coding Profiles</span>
+                            <div class="profile-links">
+                                <a href="https://codeforces.com/profile/The_Witcher76" target="_blank" class="profile-icon" title="Codeforces">
+                                    <img src="codeforces-new.png" alt="Codeforces">
+                                </a>
+                                <a href="https://leetcode.com/u/THEDARKKNIGHT2006__/" target="_blank" class="profile-icon" title="LeetCode">
+                                    <img src="leetcode-logo.jfif" alt="LeetCode">
+                                </a>
+                                <a href="https://www.codechef.com/users/sukrit_m_2006" target="_blank" class="profile-icon" title="CodeChef">
+                                    <img src="codechef-logo.jfif" alt="CodeChef">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <span class="stat-number">9.42</span>
+                        <span class="stat-label">YGPA (Precision Metric) Till 2nd Semester</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">C++ / Python / C# / ASP.NET / HTML / CSS / JS</span>
+                        <span class="stat-label">Primary Arsenal</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE SECTION -->
+        <section id="experience" class="section" style="padding-top: 20px;">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="horizontal-timeline">
+                <div class="h-timeline-item">
+                    <div class="h-timeline-dot"></div>
+                    <div class="h-timeline-content">
+                        <span class="date">June 2026 - Present</span>
+                        <h3>Software Developer Intern @ iTConia</h3>
+                        <span class="tech-stack">C# • ASP.NET Core • Razor Pages • EF Core • MS SQL Server</span>
+                        <p>Architecting and developing robust, enterprise-grade web applications. Utilizing Entity Framework (EF) Core for highly optimized database interactions and data modeling, while building scalable, secure, and dynamic user interfaces using Razor Pages.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects" class="section">
+            <h2 class="section-title">Classified Projects</h2>
+            <div class="floating-projects-grid">
+                
+                <div class="floating-tab">
+                    <div class="tab-content">
+                        <h3>Enterprise Employee Manager</h3>
+                        <span class="tech-stack">C# • ASP.NET Core • EF Core • Razor Pages • AJAX</span>
+                        <p>An enterprise-grade administrative platform engineered to manage complex data lifecycles. Built with a high-performance MS SQL Server architecture, utilizing AJAX for seamless, asynchronous data processing and jQuery DataTables for dynamic, rapid front-end rendering.</p>
+                    </div>
+                    <div class="tab-links">
+                        <a href="#" target="_blank" class="tab-link"><span class="link-icon">🌐</span> Hostable Link</a>
+                        <a href="https://github.com/sukritmajumdar-jgec6009/Employee-Manager" target="_blank" class="tab-link"><span class="link-icon">💻</span> GitHub</a>
+                    </div>
+                </div>
+
+                <div class="floating-tab">
+                    <div class="tab-content">
+                        <h3>Market Automation Protocol</h3>
+                        <span class="tech-stack">Python • Trading Bot • API</span>
+                        <p>A modular Python CLI bot for the Binance Futures Testnet. Executes Market and Limit orders with high reliability, strict validation, and structured logging.</p>
+                    </div>
+                    <div class="tab-links">
+                        <a href="https://github.com/sukritmajumdar-jgec6009/binance-futures-bot" target="_blank" class="tab-link"><span class="link-icon">💻</span> GitHub</a>
+                    </div>
+                </div>
+
+                <div class="floating-tab">
+                    <div class="tab-content">
+                        <h3>Personal Portfolio (BATMAN THEMED)</h3>
+                        <span class="tech-stack">HTML • CSS • JAVASCRIPT</span>
+                        <p>Designed a Batman-themed personal portfolio to provide a clear and engaging overview of my technical skills, projects, and professional background.</p>
+                    </div>
+                    <div class="tab-links">
+                        <a href="https://sukritmajumdar-jgec6009.github.io/personal-portfolio/" target="_blank" class="tab-link"><span class="link-icon">🌐</span> Hostable Link</a>
+                        <a href="https://github.com/sukritmajumdar-jgec6009/personal-portfolio" target="_blank" class="tab-link"><span class="link-icon">💻</span> GitHub</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <footer id="contact" class="footer">
+
+            <!-- BATMOBILE LOADING/PATROL ANIMATION -->
+            <div class="patrol-container">
+                <div class="batmobile-wrapper" id="bat-wrapper">
+                    <!-- Added id="bat-vid" and removed 'loop' so JS can control the exact loop timing -->
+                    <video autoplay loop muted playsinline class="batmobile-video" id="bat-vid">
+                        <source src="batmobile-anim.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+            <h2>Initiate Secure Channel</h2>
+            <p>Seeking collaborative technical operations and software engineering roles.</p>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sukritmajumdar18@gmail.com" target="_blank" class="btn secondary-btn">SEND MAIL</a>
+            
+            <!-- GET IN TOUCH SOCIALS -->
+            <div class="social-links">
+                <!-- GitHub -->
+                <a href="https://github.com/sukritmajumdar-jgec6009" target="_blank" class="social-icon" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/sukrit-majumdar-36a639314/" target="_blank" class="social-icon" title="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+
+            <p class="copyright">© Sukrit Majumdar 2026</p>
+        </footer>
+    </div> 
+
+    <script src="script.js"></script>
+</body>
+</html>
