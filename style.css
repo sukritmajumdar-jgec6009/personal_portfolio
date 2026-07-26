@@ -229,7 +229,7 @@ h1, h2, h3, .logo, .fixed-logo, .mobile-logo { font-family: 'Oswald', sans-serif
     align-items: center; 
     justify-content: center; 
     z-index: 10;
-    animation: batmobileDrive 10s linear infinite; 
+    animation: batmobileDrive 5s linear infinite; 
 }
 
 .batmobile-video { 
